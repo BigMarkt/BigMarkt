@@ -1,13 +1,14 @@
-import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
+import Home from "./home.page";
 
-export function meta({}: Route.MetaArgs) {
+export function meta() {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "BigMarkt — Launch your finance career" },
+    {
+      name: "description",
+      content:
+        "BigMarkt — Learn trading, practice with simulated capital, and manage real money. Launch your finance career.",
+    },
   ];
 }
 
-export default function Home() {
-  return <Welcome />;
-}
+export default Home;
