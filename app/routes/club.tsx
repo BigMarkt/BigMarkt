@@ -2,10 +2,6 @@ import { Layout } from "../components/Layout";
 import { Button } from "../components/Button";
 import { useState } from "react";
 
-export async function loader() {
-    return null;
-}
-
 export default function Club() {
     const [expandedFAQ, setExpandedFAQ] = useState<number | null>(null);
 

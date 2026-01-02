@@ -1,10 +1,6 @@
 import { Layout } from "../components/Layout";
 import { Button } from "../components/Button";
 
-export async function loader() {
-    return null;
-}
-
 export default function About() {
     return (
         <Layout>
