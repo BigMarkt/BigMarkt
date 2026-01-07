@@ -144,7 +144,7 @@ export default function Home() {
                                 >
                                     ✨ Apply Now - It's Free
                                 </Button>
-                                <a href="" target="_blank">
+                                <a href="mailto:hello@debigmarket.com" target="_blank">
                                     <button
                                         className="border-3 py-3 border-white text-white px-8 rounded-lg font-bold hover:bg-white hover:text-red-600 transition-all duration-200 backdrop-blur-sm"
                                     >
