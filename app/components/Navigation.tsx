@@ -21,7 +21,7 @@ export function Navigation() {
                 </div>
 
                 {/* Desktop Apply Button */}
-                <Link to="/club" className="hidden md:block bg-red-600 text-white px-6 py-2 rounded-lg font-bold hover:bg-red-700 shadow-md hover:shadow-lg transition-all">
+                <Link to="https://docs.google.com/forms/d/e/1FAIpQLSfNWZxEHHOpBEHwtYFNOtmxSsUY8xTVNtPZ0tz5nnFfHCo2ig/viewform?embedded=true" target="_blank" className="hidden md:block bg-red-600 text-white px-6 py-2 rounded-lg font-bold hover:bg-red-700 shadow-md hover:shadow-lg transition-all">
                     Apply Now
                 </Link>
 

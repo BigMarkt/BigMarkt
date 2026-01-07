@@ -19,7 +19,7 @@ export default function Club() {
                         <h1 className="text-5xl md:text-6xl font-black mb-6 text-black">Build Your Finance <span className="bg-gradient-to-r from-red-600 to-red-500 bg-clip-text text-transparent">Career</span></h1>
                         <p className="text-xl md:text-2xl text-gray-700 mb-8 max-w-3xl mx-auto">Real education. Real capital. Real careers. Join 500+ students building wealth and changing their futures.</p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                            <Button href="#apply" size="lg" variant="primary">Apply Now</Button>
+                            <Button href="https://docs.google.com/forms/d/e/1FAIpQLSfNWZxEHHOpBEHwtYFNOtmxSsUY8xTVNtPZ0tz5nnFfHCo2ig/viewform?embedded=true" size="lg" variant="primary">Apply Now</Button>
                             <Button href="#how" size="lg" variant="ghost">Learn More</Button>
                         </div>
                     </div>
@@ -159,7 +159,7 @@ export default function Club() {
                         ))}
                     </div>
                     <div className="text-center">
-                        <Button href="#apply" size="lg" variant="primary">Apply to Join the Club</Button>
+                        <Button href="https://docs.google.com/forms/d/e/1FAIpQLSfNWZxEHHOpBEHwtYFNOtmxSsUY8xTVNtPZ0tz5nnFfHCo2ig/viewform?embedded=true" size="lg" variant="primary">Apply to Join the Club</Button>
                     </div>
                 </div>
             </section>
@@ -216,7 +216,7 @@ export default function Club() {
                 <div className="max-w-4xl mx-auto text-center relative z-10">
                     <h2 className="text-4xl md:text-5xl font-black text-white mb-6">Ready to Transform Your Future?</h2>
                     <p className="text-xl text-red-100 mb-8">Join hundreds of ambitious students building real wealth and launching real careers.</p>
-                    <Button href="#apply" size="lg" variant="white">Apply Now →</Button>
+                    <Button href="https://docs.google.com/forms/d/e/1FAIpQLSfNWZxEHHOpBEHwtYFNOtmxSsUY8xTVNtPZ0tz5nnFfHCo2ig/viewform?embedded=true" size="lg" variant="white">Apply Now →</Button>
                 </div>
             </section>
         </Layout>

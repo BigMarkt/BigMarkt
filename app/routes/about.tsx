@@ -80,7 +80,7 @@ export default function About() {
                     <div className="mb-16">
                         <h3 className="text-2xl font-bold text-center mb-8 text-black">Career Paths Available</h3>
                         <div className="grid md:grid-cols-3 lg:grid-cols-6 gap-4">
-                            {['Trading', 'Analysis', 'Risk Mgmt', 'Fintech', 'Portfolio Mgmt', 'Independent'].map((path) => (
+                            {['Trading', 'Analysis', 'Risk Management', 'Fintech', 'Portfolio Management', 'Independent'].map((path) => (
                                 <div key={path} className="p-6 bg-gradient-to-br from-red-50 to-white rounded-lg border border-red-200 hover:border-red-400 hover:shadow-md transition-all text-center">
                                     <p className="font-bold text-black">{path}</p>
                                 </div>
