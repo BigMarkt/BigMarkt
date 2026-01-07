@@ -159,7 +159,7 @@ export default function Club() {
                         ))}
                     </div>
                     <div className="text-center">
-                        <Button href="https://docs.google.com/forms/d/e/1FAIpQLSfNWZxEHHOpBEHwtYFNOtmxSsUY8xTVNtPZ0tz5nnFfHCo2ig/viewform?embedded=true" size="lg" variant="primary">Apply to Join the Club</Button>
+                        <Button href="https://docs.google.com/forms/d/e/1FAIpQLSfDFOS_3-nHq2C0iY27xhIoqxNPFSRuBb42Rf-mwNTe8xTxAA/viewform?usp=send_form" size="lg" variant="primary">Apply to Join the Club</Button>
                     </div>
                 </div>
             </section>
@@ -216,7 +216,7 @@ export default function Club() {
                 <div className="max-w-4xl mx-auto text-center relative z-10">
                     <h2 className="text-4xl md:text-5xl font-black text-white mb-6">Ready to Transform Your Future?</h2>
                     <p className="text-xl text-red-100 mb-8">Join hundreds of ambitious students building real wealth and launching real careers.</p>
-                    <Button href="https://docs.google.com/forms/d/e/1FAIpQLSfNWZxEHHOpBEHwtYFNOtmxSsUY8xTVNtPZ0tz5nnFfHCo2ig/viewform?embedded=true" size="lg" variant="white">Apply Now →</Button>
+                    <Button href="https://docs.google.com/forms/d/e/1FAIpQLSfDFOS_3-nHq2C0iY27xhIoqxNPFSRuBb42Rf-mwNTe8xTxAA/viewform?usp=send_form" size="lg" variant="white">Apply Now →</Button>
                 </div>
             </section>
         </Layout>

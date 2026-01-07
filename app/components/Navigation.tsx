@@ -9,7 +9,7 @@ export function Navigation() {
             <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
                 {/* Logo */}
                 <Link to="/" className="font-black text-2xl text-black hover:text-red-600 transition-colors">
-                    BigMarkt
+                    <img className="w-32" src="/logo.jpeg" alt="" />
                 </Link>
 
                 {/* Desktop Navigation */}

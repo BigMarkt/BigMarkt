@@ -84,7 +84,7 @@ export default function Home() {
                             <div className="p-8 bg-white rounded-lg shadow-md border border-gray-200">
                                 <div className="text-4xl mb-4">💼</div>
                                 <h3 className="text-xl font-semibold mb-3 text-black">Capital Partners</h3>
-                                <p className="text-gray-600 mb-4">Transparent prop trading with professional accountability<br />30/70 split | $0 fees | $10K minimum | By invitation</p>
+                                <p className="text-gray-600 mb-4">Transparent prop trading with professional accountability<br />60/40 split | $0 fees | $10K minimum | By invitation</p>
                                 <Button to="/partners" variant="ghost">Partner Info →</Button>
                             </div>
                         </div>
@@ -144,11 +144,13 @@ export default function Home() {
                                 >
                                     ✨ Apply Now - It's Free
                                 </Button>
-                                <button
-                                    className="border-3 border-white text-white px-8 rounded-lg font-bold hover:bg-white hover:text-red-600 transition-all duration-200 backdrop-blur-sm"
-                                >
-                                    📅 Schedule a Call
-                                </button>
+                                <a href="" target="_blank">
+                                    <button
+                                        className="border-3 py-3 border-white text-white px-8 rounded-lg font-bold hover:bg-white hover:text-red-600 transition-all duration-200 backdrop-blur-sm"
+                                    >
+                                        📅 Schedule a Call
+                                    </button>
+                               </a>
                             </div>
 
                             <p className="text-sm text-red-100 mt-8">
